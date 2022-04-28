@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint -c ./.eslintrc.js \"./*/**/*.{ts,tsx,js,jsx}\" --fix",
     "test": "jest --watchAll=false --coverage --color --passWithNoTests",
+    "test:watch": "jest --watchAll --coverage --color --passWithNoTests",
     "postinstall": "husky install"
   },
   "dependencies": {
