@@ -16,7 +16,7 @@ const Header = () => {
           <Image
             width={80}
             height={80}
-            src='/favicon.ico'
+            src='/bullseye.png'
             alt='Habit Tracker'
           />
         </a>
