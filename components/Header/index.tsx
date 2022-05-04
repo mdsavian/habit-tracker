@@ -4,9 +4,9 @@ import { useRouter } from 'next/router'
 
 const Header = () => {
   const linkClass =
-    'text-lg transition-opacity hover:opacity-70 border-b-2 border-transparent hover:border-blue-300'
+    'text-lg transition-opacity hover:opacity-70 border-b-2 border-transparent hover:border-blue-300 text-white'
   const activeLinkClass =
-    'text-lg transition-opacity hover:opacity-70 border-b-2 border-blue-500'
+    'text-lg transition-opacity hover:opacity-70 border-b-2 border-blue-500 text-white'
 
   const router = useRouter()
   return (
@@ -21,8 +21,6 @@ const Header = () => {
           />
         </a>
       </Link>
-
-      <p className='text-4xl text-bold text-center'>Habit Tracker</p>
 
       <nav className='flex gap-4'>
         <Link href='/'>

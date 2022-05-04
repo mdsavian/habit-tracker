@@ -1,6 +1,9 @@
 import type { NextPage } from 'next'
-import Header from '../components/Header'
 
-const Home: NextPage = () => <Header />
+const Home: NextPage = () => (
+  <div className='center flex h-screen'>
+    <p>Table habits1</p>
+  </div>
+)
 
 export default Home
